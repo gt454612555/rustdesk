@@ -11,7 +11,7 @@ env:
   CARGO_NDK_VERSION: "3.1.2"
   LLVM_VERSION: "15.0.6"
   FLUTTER_VERSION: "3.22.2"
-  FLUTTER_RUST_BRIDGE_VERSION: "1.80.1"
+  FLUTTER_RUST_BRIDGE_VERSION: "1.82.0"
   # for arm64 linux because official Dart SDK does not work
   FLUTTER_ELINUX_VERSION: "3.16.9"
   TAG_NAME: "nightly"
@@ -44,7 +44,7 @@ jobs:
               arch: x86_64,
               flutter: "3.13.9",
               ref: "f6509e3fd6917aa976bad2fc684182601ebf2434",
-              bridge: "1.80.1",
+              bridge: "1.82.0",
               date: "20231219"
             }
           - {
@@ -54,7 +54,7 @@ jobs:
               arch: x86_64,
               flutter: "3.10.6",
               ref: "f6509e3fd6917aa976bad2fc684182601ebf2434",
-              bridge: "1.80.1",
+              bridge: "1.82.0",
               date: "20231219"
             }
           - {
@@ -64,7 +64,7 @@ jobs:
               arch: x86_64,
               flutter: "3.10.6",
               ref: "85ddfc0739f052cab0029c46b899b959ee94eeb8",
-              bridge: "1.80.1",
+              bridge: "1.82.0",
               date: "20231119"
             }
           - {
@@ -74,7 +74,7 @@ jobs:
               arch: x86_64,
               flutter: "3.13.9",
               ref: "85ddfc0739f052cab0029c46b899b959ee94eeb8",
-              bridge: "1.80.1",
+              bridge: "1.82.0",
               date: "20231119"
             }
     steps:
